@@ -1,7 +1,7 @@
 "use client";
 
 import Image from 'next/image';
-import Logo from '../images/logo.png';
+import logo from '../images/HeroSection/Logo.png';
 import { useState, useEffect } from 'react';
 
 export function Navbar() {
@@ -21,7 +21,7 @@ export function Navbar() {
     <div className=" ">
       <nav className={`lg:flex justify-around items-center  py-[25px] z-30 fixed inset-x-0 top-0 bg-white transition-shadow duration-300 ${isScrolled ? 'shadow-md py-[15px] shadow-gray-500' : 'shadow-none'}`}>
         <div className="pl-4">
-          <Image src={Logo} alt="Logo Image" />
+          <Image src={logo} alt="Logo Image" />
         </div>
 
         <div className="lg:flex space-x-12 list-none hidden">
