@@ -4,7 +4,7 @@ import Image from "next/image";
 import { images } from "./imagesapi";
 import { useState } from "react";
 
-export function Services() {
+export default function Services() {
   // State to manage the active tab
   const [activeTab, setActiveTab] = useState('first'); // Default to first bulk
   const [selectedImage, setSelectedImage] = useState(null); // Track selected image

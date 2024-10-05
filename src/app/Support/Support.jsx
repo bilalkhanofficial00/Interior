@@ -5,7 +5,7 @@ import FAQ from '../images/Support/images.jpg';
 import LC from '../images/Support/images (1).jpg';
 import ST from '../images/Support/help-desk-ticketing-system.png';
 
-export const Support = () => {
+export default function Support () {
   return (
     <div className=" py-10">
       <div className="container mx-auto px-4 " id="Support">

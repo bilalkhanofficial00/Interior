@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image from "next/image"
 import I from '../images/Contact/Rectangle 13.png'
-export function ContactUs() {
+export default function ContactUs() {
 
     const [formData, setFormData] = useState({
         fullName: '',

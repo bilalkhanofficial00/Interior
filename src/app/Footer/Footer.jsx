@@ -5,7 +5,7 @@ import T from '../images/Footer/X.png'
 import I from '../images/Footer/Instagram.png'
 import L from '../images/Footer/Linkdin.png'
 import M from '../images/Footer/fi-br-envelope.png'
-export function Footer() {
+export default function Footer() {
     return (
         <>
             <div className='bg-[#1F1F1F]'>

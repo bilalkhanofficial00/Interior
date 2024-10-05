@@ -7,7 +7,7 @@ import { Data } from "./SliderApi";
 import Left from '../images/Slider/Left.png'
 import Right from '../images/Slider/Right.png'
 
-export function Slider() {
+export default function Slider() {
   // State for controlling the visible testimonials
   const [currentIndex, setCurrentIndex] = useState(0);
   

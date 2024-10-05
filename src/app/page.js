@@ -13,11 +13,11 @@ import Group7 from './images/Dream Section/Group 7.png'
 import Group25 from './images/Dream Section/Group 25.png'
 import Group26 from './images/Dream Section/Group 26.png'
 import Group27 from './images/Dream Section/Group 27.png'
-import { ContactUs } from "./Contactus/ContactUs"
-import { Services } from "./Services/Services"
-import { Footer } from "./Footer/Footer"
-import { Support } from "./Support/Support"
-import { Slider } from "./SliderComponents/page"
+import  ContactUs  from "./Contactus/ContactUs"
+import  Services  from "./Services/Services"
+import  Footer  from "./Footer/Footer"
+import  Support  from "./Support/Support"
+import  Slider  from "./SliderComponents/page"
 
 
 
